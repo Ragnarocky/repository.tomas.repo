@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-    <addon id="plugin.video.tsahre" name="Tshare" version="0.4.0" provider-name="Tomas">
+    <addon id="plugin.video.tshare" name="Tshare" version="0.4.0" provider-name="Tomas">
         <requires>
             <import addon="xbmc.python" version="3.0.0"/>
             <import addon="kontext_menu" version="1.0.0"/>
@@ -35,4 +35,5 @@
             </assets>
         </extension>
     </addon>
+
 </addons>
