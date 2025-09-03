@@ -3,7 +3,7 @@
     <addon id="plugin.video.tshare" name="Tshare" version="0.4.0" provider-name="Tomas">
         <requires>
             <import addon="xbmc.python" version="3.0.0"/>
-            <import addon="kontext.menu" version="1.0.0"/>
+            <import addon="kontext_menu" version="1.0.0"/>
         </requires>
         <extension point="xbmc.python.pluginsource" library="main.py">
             <provides>video</provides>
@@ -19,7 +19,7 @@
         </extension>
     </addon>
 
-    <addon id="kontext.menu" name="Kontext menu" version="1.0.0" provider-name="Tomas">
+    <addon id="kontext_menu" name="Kontext menu" version="1.0.0" provider-name="Tomas">
         <requires>
             <import addon="xbmc.python" version="3.0.0"/>
         </requires>
@@ -37,3 +37,4 @@
         </extension>
     </addon>
 </addons>
+
