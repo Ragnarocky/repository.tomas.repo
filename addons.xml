@@ -23,7 +23,7 @@
         <requires>
             <import addon="xbmc.python" version="3.0.0"/>
         </requires>
-        <extension point="xbmc.python.script">
+        <extension point="kodi.context.item">
             <provides>video</provides>
         </extension>
         <extension point="xbmc.addon.metadata">
@@ -37,6 +37,7 @@
         </extension>
     </addon>
 </addons>
+
 
 
 
