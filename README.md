@@ -1,8 +1,8 @@
-# Tshare Plugin - fork
+# Tshare Plugin - Tomas
 
 Kodi plugin pro přehrávání obsahu ze služby Webshare.cz
 
-## Funkcie
+## Funkce
 
 - Vyhledávání obsahu na Webshare
 - Přehrávání videí
