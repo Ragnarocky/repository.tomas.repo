@@ -1,1 +1,1 @@
-Get-FileHash -Algorithm MD5 addons.xml | Select-Object -ExpandProperty Hash > addons.xml.md5
+﻿22986047C23045A6CB968BE0015FD378
