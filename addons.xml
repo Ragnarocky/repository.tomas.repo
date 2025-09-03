@@ -21,7 +21,7 @@
 
     <addon id="kontext_menu" name="Kontext menu" version="1.0.0" provider-name="Tomas">
         <requires>
-            <import addon="xbmc.python" version="3.0.0"/>
+            <import addon="xbmc.python" version="2.26.0"/>
         </requires>
         <extension point="xbmc.python.script">
             <provides>video</provides>
@@ -37,5 +37,6 @@
         </extension>
     </addon>
 </addons>
+
 
 
