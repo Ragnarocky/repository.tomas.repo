@@ -3,7 +3,7 @@
     <extension point="xbmc.addon.repository" name="Tomas Repo">
         <dir minversion="21.0.0">
             <info compressed="true">https://raw.githubusercontent.com/Ragnarocky/repository.tomas.repo/main/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/Ragnarocky/repository.tomas.repo/main/addons.xml.md5</checksum>
+            <checksum>https://raw.githubusercontent.com/Ragnarocky/repository.tomas.repo/main/addons.xml.md5.txt</checksum>
             <datadir>https://raw.githubusercontent.com/Ragnarocky/repository.tomas.repo/main/</datadir>
         </dir>
     </extension>
@@ -13,3 +13,4 @@
         <platform>all</platform>
     </extension>
 </addon>
+
