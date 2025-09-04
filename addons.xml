@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
     <addon id="plugin.video.tshare" name="Tshare" version="0.4.1" provider-name="Tomas for friends">
         <requires>
@@ -8,6 +8,7 @@
             <import addon="plugin.video.themoviedb.helper" version="4.0.0"/>
             <import addon="kontext_menu" version="1.0.0"/>
         </requires>
+
         <extension point="xbmc.addon.metadata">
             <summary>Tshare</summary>
             <description>Doplněk pro sledování obsahu z webshare.cz</description>
@@ -18,12 +19,18 @@
     <addon id="kontext_menu" name="Kontext menu" version="1.0.0" provider-name="Tomas">
         <requires>
             <import addon="xbmc.python" version="3.0.0"/>
-            <import addon="script.module.requests" version="2.18.4"/>
         </requires>
+        <extension point="kodi.context.item">
+            <provides>video</provides>
+        </extension>
         <extension point="xbmc.addon.metadata">
-            <summary>Kontextová nabídka pro Tmdb</summary>
-            <description>Přidává Vyhledat celý seriál do kontextové nabídky</description>
+            <summary lang="cs">Kontextová nabídka pro Tmdb</summary>
+            <description lang="cs">Přidává „Vyhledat celý seriál“ do kontextové nabídky.</description>
             <platform>all</platform>
+            <assets>
+                <icon>icon.png</icon>
+                <fanart>fanart.jpg</fanart>
+            </assets>
         </extension>
     </addon>
-</addons>
+</addons> 
