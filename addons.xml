@@ -18,25 +18,12 @@
     <addon id="kontext_menu" name="Kontext menu" version="1.0.0" provider-name="Tomas">
         <requires>
             <import addon="xbmc.python" version="3.0.0"/>
+            <import addon="script.module.requests" version="2.18.4"/>
         </requires>
-        <extension point="kodi.context.item">
-            <provides>video</provides>
-        </extension>
         <extension point="xbmc.addon.metadata">
-            <summary lang="cs">Kontextová nabídka pro Tmdb</summary>
-            <description lang="cs">Přidává „Vyhledat celý seriál“ do kontextové nabídky.</description>
+            <summary>Kontextová nabídka pro Tmdb</summary>
+            <description>Přidává Vyhledat celý seriál do kontextové nabídky</description>
             <platform>all</platform>
-            <assets>
-                <icon>icon.png</icon>
-                <fanart>fanart.jpg</fanart>
-            </assets>
         </extension>
     </addon>
 </addons>
-
-
-
-
-
-
-
