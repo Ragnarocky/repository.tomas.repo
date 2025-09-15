@@ -3,7 +3,7 @@
     <extension point="xbmc.addon.repository" name="Tomas Repo">
         <dir minversion="21.0.0">
             <!-- odkaz na skutečný addons.xml s doplňky -->
-            <info compressed="true">https://raw.githubusercontent.com/Ragnarocky/repository.tomas.repo/main/addons.xml</info>
+            <info compressed="false">https://raw.githubusercontent.com/Ragnarocky/repository.tomas.repo/main/addons.xml</info>
             <!-- odkaz na MD5 soubor pro ověření -->
             <checksum>https://raw.githubusercontent.com/Ragnarocky/repository.tomas.repo/main/addons.xml.md5.txt</checksum>
             <!-- složka s addony -->
@@ -16,3 +16,4 @@
         <platform>all</platform>
     </extension>
 </addon>
+
