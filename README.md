@@ -43,7 +43,7 @@ Rozšíření kontextové nabídky pro rychlé akce s obsahem
 - **Repository XML:** `https://raw.githubusercontent.com/Ragnarocky/repository.tomas.repo/main/addons.xml`
 - **Download složka:** `https://raw.githubusercontent.com/Ragnarocky/repository.tomas.repo/main/zip/`
 
-### Nové funkce ve verzi 0.5.0
+### Nové funkce ve verzi 0.6.0
 - sloučen addon s kontextovým menu do jednoho balíčku
 - automatická instalace TMDB Helper player konfigurace při prvním spuštění
 - přímé vyhledávání bez keyboard dialogu z TMDB Helper
