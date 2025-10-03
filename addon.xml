@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.tomas.repo" name="Tomas Repository" version="1.0.0" provider-name="Tomas">
+    <extension point="xbmc.addon.repository" name="Tomas Repo">
+        <dir minversion="21.0.0">
+            <!-- odkaz na skutečný addons.xml s doplňky -->
+            <info compressed="false">https://raw.githubusercontent.com/Ragnarocky/repository.tomas.repo/main/addons.xml</info>
+            <!-- odkaz na MD5 soubor pro ověření -->
+            <checksum>https://raw.githubusercontent.com/Ragnarocky/repository.tomas.repo/main/addons.xml.md5.txt</checksum>
+            <!-- složka s addony -->
+            <datadir>https://raw.githubusercontent.com/Ragnarocky/repository.tomas.repo/main/zip/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="cs">Repozitář s doplňky od Tomase</summary>
+        <description lang="cs">Oficiální repozitář s doplňky od Tomase.</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
