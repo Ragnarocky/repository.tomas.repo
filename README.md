@@ -4,7 +4,7 @@ Oficiální repozitář Kodi doplňků od Tomase obsahující pokročilé plugin
 
 ## 📦 Obsažené doplňky
 
-### [Tshare Plugin](zip/plugin.video.tshare/) (v0.5.0)
+### [Tshare Plugin](zip/plugin.video.tshare/) (v0.6.0)
 Pokročilý Kodi plugin pro přehrávání obsahu ze služby Webshare.cz
 
 **Hlavní funkce:**
