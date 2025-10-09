@@ -4,7 +4,7 @@ Oficiální repozitář Kodi doplňků od Tomase obsahující pokročilé plugin
 
 ## 📦 Obsažené doplňky
 
-### [Tshare Plugin](zip/plugin.video.tshare/) (v0.6.0)
+### [Tshare Plugin](zip/plugin.video.tshare/) (v1.1.0)
 Pokročilý Kodi plugin pro přehrávání obsahu ze služby Webshare.cz
 
 **Hlavní funkce:**
@@ -14,9 +14,9 @@ Pokročilý Kodi plugin pro přehrávání obsahu ze služby Webshare.cz
 - 💾 Možnost stahování souborů
 - 🎯 TMDB integrace pro metadata a plakáty
 
-### [Kontext Menu](zip/kontext_menu/) (v1.0.0) 
+### [Kontext Menu](zip/kontext_menu/) (v1.2.0) 
 Rozšíření kontextové nabídky pro rychlé akce s obsahem
-
+   - Přidána možnost, vyhledávání pomocí AJ názvu.
 ## 🚀 Instalace
 
 1. **Stažení repozitáře:**
@@ -43,7 +43,7 @@ Rozšíření kontextové nabídky pro rychlé akce s obsahem
 - **Repository XML:** `https://raw.githubusercontent.com/Ragnarocky/repository.tomas.repo/main/addons.xml`
 - **Download složka:** `https://raw.githubusercontent.com/Ragnarocky/repository.tomas.repo/main/zip/`
 
-### Nové funkce ve verzi 0.6.0
+### Nové funkce ve verzi 1.1.0
 - sloučen addon s kontextovým menu do jednoho balíčku
 - automatická instalace TMDB Helper player konfigurace při prvním spuštění
 - přímé vyhledávání bez keyboard dialogu z TMDB Helper
@@ -52,7 +52,7 @@ Rozšíření kontextové nabídky pro rychlé akce s obsahem
 - opraveny syntax warningy
 - vylepšené parsování TMDB formátu
 
-### Klíčové opravy a vylepšení z 15.9.2025
+### Klíčové opravy a vylepšení z 9.10.2025
 
 #### 🐛 **Kritické opravy**
 - **Oprava vyhledávání seriálů** - vyřešen problém, kdy SeriesManager nebyl správně volán
