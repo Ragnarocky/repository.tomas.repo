@@ -35,13 +35,13 @@
         </assets>
         
         <news>v1.2.2 (2024-01-XX):
-- OPRAVA: 'Vyhledat celý seriál' nyní hledá všechny dostupné verze všech dílů, ne jen chybějící
-- Pokud již máte díl uložený, najdou se i další alternativy s CZ dabingem/titulky
+- OPRAVA: 'Vyhledat cel� seri�l' nyn� hled� v�echny dostupn� verze v�ech d�l�, ne jen chyb�j�c�
+- Pokud ji� m�te d�l ulo�en�, najdou se i dal�� alternativy s CZ dabingem/titulky
    
 [B]1.2.1[/B]
-- OPRAVA: Vyhledávání konkrétních epizod z TMDB nyní funguje správně
-- OPRAVA: Zvýšen limit alternativních streamů na epizodu z 8 na 20 (více CZ dabingů k výběru)
-- OPRAVA: Opraveny chyby při konverzi čísla sezóny a epizody
+- OPRAVA: Vyhled�v�n� konkr�tn�ch epizod z TMDB nyn� funguje spr�vn�
+- OPRAVA: Zv��en limit alternativn�ch stream� na epizodu z 8 na 20 (v�ce CZ dabing� k v�b�ru)
+- OPRAVA: Opraveny chyby p�i konverzi ��sla sez�ny a epizody
 
 [B]1.2.0[/B]
 - Přidaná složka s novinkami na webshare
