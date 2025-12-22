@@ -2,7 +2,7 @@
 
 Kodi plugin pro přehrávání obsahu ze služby Webshare.cz
 
-## Funkcie
+## Funkce
 
 - Vyhledávání obsahu na Webshare
 - Přehrávání videí
