@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.tshare" name="Tshare" version="1.2.4" provider-name="Tomas for friends">
+    <requires>
+        <import addon="kontext_menu" version="1.0.0"/>
+        <import addon="script.module.requests" version="2.18.4"/>
+        <import addon="script.module.unidecode" version="0.4.16"/>
+        <import addon="plugin.video.themoviedb.helper" version="4.0.0"/>
+    </requires>
+    
+    <!-- Plugin extension pro hlavní Tshare -->
+    <extension point="xbmc.python.pluginsource" library="main.py">
+        <provides>video</provides>
+    </extension>
+    
+    <!-- Metadata extension -->
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Tshare Context Menu</summary>
+        <summary lang="cs_CZ">Tshare s kontextovým menu a automatickou TMDB konfigurací</summary>
+        <summary lang="sk_SK">Tshare s kontextovým menu a automatickou TMDB konfiguráciou</summary>
+        
+        <description lang="en_GB">Complete Tshare package with context menu integration and automatic TMDB Helper configuration for seamless movie/TV show playback from Webshare.cz</description>
+        <description lang="cs_CZ">Kompletní Tshare balíček s kontextovým menu a automatickou TMDB Helper konfigurací pro bezproblémové přehrávání filmů/seriálů z Webshare.cz</description>
+        <description lang="sk_SK">Kompletný Tshare balíček s kontextovým menu a automatickou TMDB Helper konfiguráciou pre bezproblémové prehrávanie filmov/seriálov z Webshare.cz</description>
+        
+        <disclaimer lang="en_GB">The plugin does not provide any content, it is only a simulation of the browser of a publicly available web site. I am not responsible for the content provided by this site.</disclaimer>
+        <disclaimer lang="sk_SK">Plugin neposkytuje žiaden obsah, je to len simulácia prehliadača verejne dostupnej web stránky. Nie som zodpovedný za obsah, ktorý táto stránka poskytuje.</disclaimer>
+        <disclaimer lang="cs_CZ">Plugin neposkytuje žádný obsah, je to jen simulace prohlížeče veřejně dostupné web stránky. Nejsem zodpovědný za obsah, který tato stránka poskytuje.</disclaimer>
+        
+        <platform>all</platform>
+        <license>AGPL 3.0</license>
+        
+        <assets>
+            <icon>resources/icon.png</icon>
+            <fanart>resources/fanart.jpg</fanart>
+        </assets>
+        
+        <news>v1.2.2 (2024-01-XX):
+- OPRAVA: 'Vyhledat cel� seri�l' nyn� hled� v�echny dostupn� verze v�ech d�l�, ne jen chyb�j�c�
+- Pokud ji� m�te d�l ulo�en�, najdou se i dal�� alternativy s CZ dabingem/titulky
+   
+[B]1.2.1[/B]
+- OPRAVA: Vyhled�v�n� konkr�tn�ch epizod z TMDB nyn� funguje spr�vn�
+- OPRAVA: Zv��en limit alternativn�ch stream� na epizodu z 8 na 20 (v�ce CZ dabing� k v�b�ru)
+- OPRAVA: Opraveny chyby p�i konverzi ��sla sez�ny a epizody
+
+[B]1.2.0[/B]
+- Přidaná složka s novinkami na webshare
+- s tmdb integrací jsou nově náhledy a popisky filmů/seriálů
+- vylepšené řazení výsledků s prioritou českého obsahu.
+- lepší kompatibilitu s TMDB Helper
+- v nastavení přidaná možnost odstranit cache.
+- oprava práce s tokenem trakt.tv
+
+[B]1.0.0[/B]
+- NOVÁ FUNKCE: Dvoustupňové inteligentní vyhledávání
+- automatické vyhledávání nejdříve podle českého názvu, pak podle originálního
+- specializované moduly pro filmy (movie_search.py) a epizody (episode_search.py)
+- vylepšené řazení výsledků s prioritou českého obsahu (cz dab: 200 bodů, cz tit: 150 bodů)
+- integrované metadata funkce pro lepší kompatibilitu s TMDB Helper
+- optimalizované API volání s inteligentním cachováním
+- čištění nepotřebných souborů a modulární architektura
+- stabilní verze připravená pro produkční použití
+- kompletní refaktorizace kódu pro lepší udržovatelnost
+
+[B]0.8.0[/B]
+- NOVÁ FUNKCE: Kompletní Trakt.tv integrace
+- automatické scrobbling (označování jako zhlédnuto)
+- synchronizace watchlistu a kolekce
+- sledování pokroku v seriálech mezi zařízeními
+- offline queue pro synchronizaci bez internetu
+- kontextové menu pro rychlé přidání do Trakt.tv
+- pokročilý player monitor pro přesné sledování pokroku
+- OAuth 2.0 autentifikace pro bezpečné přihlášení
+
+[B]0.5.0[/B]
+- vylepšené vyhledávání epizod s podporou různých formátů (S1E6, S01E06, 1x06)
+- opraveny kritické chyby ve vyhledávání seriálů
+- přidáno mazání položek z historie přehrávání
+- stabilizovaná TMDB integrace s lepším error handlingem
+- optimalizované cachování pro rychlejší vyhledávání
+- vylepšená detekce relevantních výsledků
+- nové kontextové menu pro správu obsahu
+- pokročilé vyhledávací algoritmy a strategie
+
+[B]0.4.0[/B]
+- automatická instalace TMDB Helper player konfigurace při prvním spuštění
+- přímé vyhledávání bez keyboard dialogu z TMDB Helper
+- robustní error handling a caching pro lepší výkon
+- detailní logování pro debugging
+- opraveny syntax warningy
+- vylepšené parsování TMDB formátu
+
+[B]0.3.0[/B]
+- pridana funkce spravce serialu - umoznuje vyhledat, organizovat a sledovat serialy
+- automaticke trideni epizod do sezon
+- historie vyhledanych serialu
+
+[B]0.2.0[/B]
+- nexus compatibility
+
+[B]0.1.9[/B]
+- matrix compatibility pt3
+        </news>
+    </extension>
+</addon>

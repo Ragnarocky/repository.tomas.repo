@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="kontext_menu" name="Kontext Menu" version="1.0.0" provider-name="Tomas">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.requests"/>
+    </requires>
+
+    <extension point="kodi.context.item">
+        <menu id="kodi.core.main">
+            <item library="default.py">
+                <label>[COLOR lightskyblue]Vyhledat celý seriál[/COLOR]</label>
+                <item_url>RunPlugin(plugin://plugin.video.tshare/?action=series_search&amp;series_name=$INFO[ListItem.Title])</item_url>
+                <visible>String.IsEqual(ListItem.dbtype,tvshow) | Container.Content(tvshows)</visible>
+            </item>
+        </menu>
+    </extension>
+	  <extension point="xbmc.addon.metadata">
+        <summary lang="cs">kontext_menu</summary>
+        <description lang="cs">Vyhledávání celého seriálu v kontext menu</description>
+        <assets>
+            <icon>icon.jpg</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
