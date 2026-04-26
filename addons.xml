@@ -40,7 +40,7 @@
     </extension>
 </addon><addon id="plugin.video.tshare" name="Tshare" version="1.2.9" provider-name="Tomas for friends">
     <requires>
-        <import addon="kontext_menu" version="1.2.1" />
+        <import addon="kontext_menu" version="1.2.2" />
         <import addon="script.module.requests" version="2.18.4" />
         <import addon="script.module.unidecode" version="0.4.16" />
         <import addon="plugin.video.themoviedb.helper" version="4.0.0" />
