@@ -38,7 +38,7 @@
             <fanart>fanart.jpg</fanart>
         </assets>
     </extension>
-</addon><addon id="plugin.video.tshare" name="Tshare" version="1.3.7" provider-name="Tomas for friends">
+</addon><addon id="plugin.video.tshare" name="Tshare" version="1.2.9" provider-name="Tomas for friends">
     <requires>
         <import addon="kontext_menu" version="1.2.1" />
         <import addon="script.module.requests" version="2.18.4" />
@@ -79,7 +79,7 @@
         
         <news>
 
-[B]1.3.7[/B] (2026-01-16)
+[B]1.2.9[/B] (2026-01-16)
 - NOVÁ FUNKCE: Nastavení preferované kvality videa (Auto / 4K / 1080p / 720p / SD)
 - Inteligentní řazení streamů podle preferované kvality + CZ dabing má VŽDY prioritu
 - Defaultně preferuje 1080p, ale zobrazí všechny kvality
